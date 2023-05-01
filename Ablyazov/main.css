@@ -1,0 +1,284 @@
+@font-face{
+    font-family: 'Sweet\ Mavka\ Script';
+    src: url("src/Sweet\ Mavka\ Script.otf") format("opentype");
+}
+
+/*header*/
+.headbackground{
+    position: absolute;
+    width: 1920px;
+    height: 244px;
+    left: 0px;
+    top: 0px;
+    background: url(src/image.png);
+}
+.logo{
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    left: 884px;
+    top: 15px;
+}
+.log-in{
+    position: absolute;
+    width: 98px;
+    height: 38px;
+    left: 1094px;
+    top: 43px;
+
+    background: #8CB6E9;
+    border-radius: 15px;
+}
+.log-in-text{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Sweet\ Mavka\ Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 15px;
+    display: contents;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #2D304E;
+}
+.register{
+    background-color: transparent;
+    position: absolute;
+    width: 154px;
+    height: 27px;
+    left: 1217px;
+    top: 52px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #2D304E;
+}
+
+.menu, .stock, .about, .basket{
+    position: absolute;
+    width: 196px;
+    height: 56px;
+    top: 177px;
+
+    background: #8CB6E9;
+    border-radius: 28px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+
+    color: #2D304E;
+}
+
+.menu{
+    left: 532px;
+}
+.stock{
+    left: 752px;
+}
+.about{
+    left: 972px;
+}
+.basket{
+    left: 1192px
+}
+
+/*main text*/
+body{
+    background: url(src/backbody.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    overflow-x: hidden;
+
+}
+.content{
+    position: absolute;
+    width: 1848px;
+    height: 2007px;
+    left: 40px;
+    top: 305px;
+    overflow-y: scroll;
+}
+.backinfo{
+    position: absolute;
+    width: 1516px;
+    height: 1892px;
+    left: 200px;
+    top: 244px;
+
+    background: #C9B9B1;
+    border-radius: 95px;
+}
+.stock-x{
+    position: relative;
+    width: 1344px;
+    height: 550px;
+    left: 100px;
+    top: 90px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+
+.blockinx{
+    box-sizing: border-box;
+    position: absolute;
+    width: 579px;
+    height: 464px;
+    top: 40px;
+    display: inline-block;
+    border: 6px solid #000000;
+    border-radius: 80px;
+}
+
+#manul{
+    background: url(https://i.ytimg.com/vi/juPM6969zyg/maxresdefault.jpg); 
+    background-size: cover;
+    left: 0px;
+    background-position: 50%;
+}
+#crotovuha{
+    background: url(https://sun9-84.userapi.com/impg/LA197jCu8LuD6qnLjevb5g7e1xuple3Hq2GU4g/LhLM4gYOIEs.jpg?size=348x491&quality=95&sign=d82939dc56c1048043f4be515d13dce0&c_uniq_tag=UoVUYZhDBlK9A_LusbrGfAu0TEeeauV8xVxPpy59Vok&type=album);
+    background-size: cover;
+    background-position: 50%;
+    left: 604px;
+}
+#manulhelp{
+    background: url(https://static-cdn4.vigbo.tech/u30782/93811/blog/5496324/4921407/64348198/1000-83e73b9d16781223920f71011dbdac22.png) ; 
+    background-size: cover;
+    background-position: 50%;
+    left: 1208px;
+}
+
+.line{
+    position: absolute;
+    width: 1344px;
+    height: 0px;
+    left: 84px;
+    top: 603px;
+    border-radius: 90px;
+    border: 6px solid #000000;
+}
+.HeadText{
+    position: absolute;
+    width: 580px;
+    height: 93px;
+    top: 546px;
+    
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 93px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    
+    color: #000000;
+}
+#first{
+    left: 473px;    
+}
+
+.card{
+    position: absolute;
+    width: 416px;
+    height: 680px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 45px;
+}
+.shopblock{
+    position: absolute;
+width: 416px;
+height: 680px;
+left: 248px;
+top: 675px;
+}
+
+.card > img{
+    position: absolute;
+    width: 344px;
+    height: 236px;
+    left: 40px;
+    top: 40px;
+}
+
+.card > p {
+    position: absolute;
+    width: 344px;
+    height: 44px;
+    left: 40px;
+    top: 276px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2D304E;
+}
+.V{
+    position: absolute;
+    width: 177px;
+    height: 40px;
+    left: 40px;
+    top: 320px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #2D304E;
+}
+.Dis{
+    position: absolute;
+    width: 163px;
+    height: 40px;
+    left: 221px;
+    top: 320px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+
+    color: #2D304E;
+
+}
