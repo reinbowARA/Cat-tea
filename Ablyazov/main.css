@@ -138,7 +138,9 @@ body{
     overflow-y: hidden;
     white-space: nowrap;
 }
-
+.stock-x::-webkit-scrollbar {
+ display: none;
+}
 
 .blockinx{
     box-sizing: border-box;
