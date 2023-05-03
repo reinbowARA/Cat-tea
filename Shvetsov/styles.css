@@ -3,6 +3,10 @@
 	src: url("Sweet\ Mavka\ Script.otf") format("opentype");
 }
 
+a{
+	text-decoration: none;
+}
+
 .background {
 	width:1920px;
 	height:2692px;
@@ -361,7 +365,7 @@
 	text-align:left;
 	font-size:16px;
 	letter-spacing:0;
-	/*text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);*/
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
 }
 .help { 
 	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
@@ -447,7 +451,7 @@
 	text-align:left;
 	font-size:16px;
 	letter-spacing:0;
-	/*text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);*/
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
 }
 
 .borders { 
@@ -640,7 +644,7 @@
 	top: 38px;
 	background-image: url(images/koshkin_chai.svg);
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
 }
 
 .telegram {
@@ -673,5 +677,5 @@
 	top: 15px;
 	background-image: url(images/koshkin_chai.svg);
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:contain;
 }
