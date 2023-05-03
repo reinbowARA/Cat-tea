@@ -1,0 +1,454 @@
+@font-face{
+    font-family: 'Sweet\ Mavka\ Script';
+    src: url("./Sweet\ Mavka\ Script.otf") format("opentype");
+}
+
+
+.back{
+    position: absolute;
+    width: 1920px;
+    height: 244px;
+    left: 0px;
+    top: 0px;
+    background: url("./images/front.png");
+}
+
+.logo{
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    left: 884px;
+    top: 15px;
+    
+}
+
+.log-in{
+    position: absolute;
+    width: 98px;
+    height: 38px;
+    left: 1094px;
+    top: 43px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #2D304E;
+    background: #8CB6E9;
+    border-radius: 15px;
+}
+
+.registed{
+    background-color: transparent;
+    position: absolute;
+    width: 154px;
+    height: 38px;
+    left: 1217px;
+    top: 43px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    color: #2D304E;
+    background: #8CB6E9;
+    border-radius: 15px;
+}
+
+
+.menu, .actions, .about_us, .basket{
+    position: absolute;
+    width: 196px;
+    height: 56px;
+    top: 177px;
+
+    background: #8CB6E9;
+    border-radius: 28px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    align-items: center;
+    text-align: center;
+
+    color: #2D304E;
+}
+
+.menu{
+    left: 532px;
+}
+
+.actions{
+    left: 752px;
+}
+
+.about_us{
+    left: 972px;
+}
+
+.basket{
+    left: 1192px
+}
+
+body{
+    background: url("./images/backbody.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    overflow-x: hidden;
+}
+
+.backbody{
+    position: absolute;
+    width: 1518px;
+    height: 2136px;
+    left: 202px;
+    top: 245px;
+
+    background: #C9B9B1;
+    border-radius: 95px;
+}
+
+.about{
+    position: absolute;
+    width: 660px;
+    height: 149px;
+    left: 417px;
+    top: 15px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 121px;
+    line-height: 176px;
+    text-align: center;
+
+    color: #2D304E;
+}
+
+.tea{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    left: 147px;
+    top: 241px;
+
+    background: url("./images/tea.jpg");
+    border-radius: 90px;
+}
+
+.text_body{
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    left: 156px;
+    top: 956px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.line{
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 158px;
+    top: 1206px;
+
+    border: 6px solid #000000;
+    border-radius: 15px;
+}
+
+.cont{
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    left: 409px;
+    top: 1256px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 145px;
+    text-align: center;
+
+    color: #2D304E;
+}
+
+.cont1{
+    position: absolute;
+    width: 340px;
+    height: 385px;
+    left: 184px;
+    top: 1461px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cont2{
+    position: absolute;
+    width: 340px;
+    height: 385px;
+    left: 586px;
+    top: 1461px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.cont3{
+    position: absolute;
+    width: 340px;
+    height: 385px;
+    right: 192px;
+    top: 1461px;
+
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.vertical_line1{
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 350px;
+    top: 1661px;
+
+    border: 6px solid #898181;
+    transform: rotate(-90deg);
+    border-radius: 15px;
+    
+
+}
+
+.vertical_line2{
+    position: absolute;
+    width: 400px;
+    height: 0px;
+    left: 750px;
+    top: 1661px;
+
+    border: 6px solid #898181;
+    transform: rotate(-90deg);
+    border-radius: 15px;
+}
+
+footer{
+    background: url("./images/front.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    overflow-x: hidden;
+    position: absolute;
+    width: 1920px;
+    height: 260px;
+    left: 0px;
+    top: 2424px;
+
+}
+
+.logo2{
+    position: absolute;
+    width: 196px;
+    height: 186px;
+    left: 313px;
+    top: 38px;
+}
+
+.telegram{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 642px;
+    top: 26px;
+}
+
+.vk{
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 642px;
+    top: 80px;
+}
+
+.mail2, .adress, .number{
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #2D304E;
+    }
+
+.mail2{
+    position: absolute;
+    width: 390px;
+    height: 31px;
+    left: 642px;
+    top: 120px;
+}
+
+.adress{
+    position: absolute;
+    width: 409px;
+    height: 36px;
+    left: 642px;
+    top: 151px;
+}
+
+.number{
+    position: absolute;
+    width: 390px;
+    height: 36px;
+    left: 642px;
+    top: 187px;
+}
+
+.text1, .text5, .text8{
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+
+    color: #2D304E;
+}
+
+.text2, .text3, .text4, .text6, .text7, .text9, .text10, .text11{
+    font-family: 'Sweet Mavka Script';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+
+    color: #2D304E;
+}
+
+.text1{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 1163px;
+    top: 20px;
+}
+
+.text2{
+    position: absolute;
+    width: 174px;
+    height: 34px;
+    left: 1163px;
+    top: 55px;
+}
+
+.text3{
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    left: 1163px;
+    top: 89px;
+}
+
+.text4{
+    position: absolute;
+    width: 174px;
+    height: 34px;
+    left: 1163px;
+    top: 124px;
+}
+
+.text5{
+    position: absolute;
+    width: 107px;
+    height: 35px;
+    left: 1381px;
+    top: 20px;
+}
+
+.text6{
+    position: absolute;
+    width: 108px;
+    height: 34px;
+    left: 1380px;
+    top: 55px;
+}
+
+.text7{
+    position: absolute;
+    width: 108px;
+    height: 35px;
+    left: 1380px;
+    top: 89px;
+}
+
+.text8{
+    position: absolute;
+    width: 138px;
+    height: 35px;
+    left: 1531px;
+    top: 20px;
+}
+
+.text9{
+    position: absolute;
+    width: 138px;
+    height: 34px;
+    left: 1531px;
+    top: 55px;
+}
+
+.text10{
+    position: absolute;
+    width: 138px;
+    height: 35px;
+    left: 1531px;
+    top: 89px;
+}
+
+.text11{
+    position: absolute;
+    width: 138px;
+    height: 34px;
+    left: 1531px;
+    top: 124px;
+}
