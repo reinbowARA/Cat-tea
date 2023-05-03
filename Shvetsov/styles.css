@@ -3,10 +3,6 @@
 	src: url("Sweet\ Mavka\ Script.otf") format("opentype");
 }
 
-a{
-	text-decoration: none;
-}
-
 .background {
 	width:1920px;
 	height:2692px;
@@ -642,9 +638,6 @@ a{
 	height: 186px;
 	left: 313px;
 	top: 38px;
-	background-image: url(images/koshkin_chai.svg);
-	background-repeat:no-repeat;
-	background-size:contain;
 }
 
 .telegram {
@@ -675,7 +668,4 @@ a{
 	height: 152px;
 	left: 884px;
 	top: 15px;
-	background-image: url(images/koshkin_chai.svg);
-	background-repeat:no-repeat;
-	background-size:contain;
 }
