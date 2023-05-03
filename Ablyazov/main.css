@@ -127,7 +127,7 @@ body{
     background: #C9B9B1;
     border-radius: 95px;
 }
-.stock-x{
+.stockx{
     position: relative;
     width: 1344px;
     height: 550px;
@@ -138,10 +138,9 @@ body{
     overflow-y: hidden;
     white-space: nowrap;
 }
-.stock-x::-webkit-scrollbar {
- display: none;
+.stockx::-webkit-scrollbar{
+    width: 0px;
 }
-
 .blockinx{
     box-sizing: border-box;
     position: absolute;
