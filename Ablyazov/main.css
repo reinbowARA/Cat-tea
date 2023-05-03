@@ -134,11 +134,14 @@ body{
     left: 90px;
     top: 90px;
     overflow: auto;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
 }
-
+/*Убрать полосу прокрутки у элемента*/
+.stock-x::-webkit-scrollbar {
+    width: 0;
+  }
 
 .blockinx{
     box-sizing: border-box;
