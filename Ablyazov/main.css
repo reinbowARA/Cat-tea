@@ -138,10 +138,9 @@ body{
     overflow-y: hidden;
     white-space: nowrap;
 }
-/*Убрать полосу прокрутки у элемента*/
 .stock-x::-webkit-scrollbar {
-    width: 0;
-  }
+ display: none;
+}
 
 .blockinx{
     box-sizing: border-box;
