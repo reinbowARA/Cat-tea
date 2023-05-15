@@ -3,38 +3,46 @@
     src: url("src/Sweet\ Mavka\ Script.otf") format("opentype");
 }
 
-/*header*/
-.headbackground{
-    position: absolute;
-    width: 1920px;
-    height: 244px;
-    left: 0px;
-    top: 0px;
-    background: url(src/image.png);
+*{
+    margin: 0 auto;
 }
-.logo{
-    position: absolute;
+/*header*/
+header{
+    height: 244px;
+    width: 100%;
+}
+
+.headbackground{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{ 
+    position: relative;
     width: 152px;
     height: 152px;
-    left: 884px;
-    top: 15px;
+    top: 10px;
+    margin-right: 0px;
+    margin-left: 344px;
 }
 .log-in{
-    position: absolute;
+    position: relative; 
     width: 98px;
     height: 38px;
-    left: 1094px;
-    top: 43px;
+    top: -20px;
+    margin-right: 0px;
+    margin-left: 58px;
 
     background: #8CB6E9;
     border-radius: 15px;
 }
 .log-in-text{
-    position: absolute;
+    /*position: fixed; 
     left: 0%;
     right: 0%;
     top: 0%;
-    bottom: 0%;
+    bottom: 0%;*/
 
     font-family: 'Sweet\ Mavka\ Script';
     font-style: normal;
@@ -49,11 +57,12 @@
 }
 .register{
     background-color: transparent;
-    position: absolute;
+    position: relative; 
     width: 154px;
     height: 27px;
-    left: 1217px;
-    top: 52px;
+    top:-20px;
+    margin-right: 0px;
+    margin-left: 25px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -68,11 +77,19 @@
     color: #2D304E;
 }
 
+.headdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .menu, .stock, .about, .basket{
-    position: absolute;
+    position: relative;
     width: 196px;
     height: 56px;
-    top: 177px;
+    top: 20px;
 
     background: #8CB6E9;
     border-radius: 28px;
@@ -84,11 +101,12 @@
     line-height: 52px;
     align-items: center;
     text-align: center;
-
+    margin-right: 0px;
+    margin-left: 0px;
     color: #2D304E;
 }
 
-.menu{
+/*.menu{
     left: 532px;
 }
 .stock{
@@ -98,32 +116,37 @@
     left: 972px;
 }
 .basket{
-    left: 1192px
-}
+    left: 1192px;
+}*/
 
 /*main text*/
+header, footer{
+    background: url(src/image.png);
+    background-repeat: repeat;
+   /* background: #c4a275;*/
+}
+
 body{
+    position: relative;
+    /*background: #7e421e;*/
+
     background: url(src/backbody.jpg);
-    background-size: 100%;
     background-repeat: repeat;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-}
-.content{
-    position: absolute;
-    width: 1848px;
-    height: 2007px;
-    left: 40px;
-    top: 305px;
-    overflow-y: scroll;
-}
 .backinfo{
-    position: absolute;
+    position: relative;
     width: 1516px;
     height: 2625px;
-    left: 200px;
-    top: 244px;
 
+    margin-left: 0px;
+    margin-right: 0px;
     background: #C9B9B1;
     border-radius: 95px;
 }
@@ -131,8 +154,8 @@ body{
     position: relative;
     width: 1344px;
     height: 550px;
-    left: 90px;
-    top: 90px;
+    top: 52px;
+    
     overflow: auto;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -173,11 +196,10 @@ body{
 }
 
 .line{
-    position: absolute;
+    position: relative;
     width: 1344px;
     height: 0px;
-    left: 84px;
-    top: 603px;
+    top: 36px;
     border-radius: 90px;
     border: 6px solid #000000;
 }
@@ -185,7 +207,7 @@ body{
     position: absolute;
     width: 580px;
     height: 93px;
-    top: 546px;
+    
     
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -201,6 +223,7 @@ body{
     color: #000000;
 }
 #first{
+    top: 607px;
     left: 473px;    
 }
 
@@ -353,8 +376,8 @@ color: #2A0600;
     position: absolute;
     width: 232px;
 height: 93px;
-left: 632px;
-top: 1403px;
+left: 637px;
+top: 1462px;
 }
 
 .shopblock3{
@@ -392,13 +415,15 @@ top: 1562px;
 
 .endcontent{
     position: absolute;
-width: 1337px;
-height: 250px;
-left: 85px;
-top: 2315px;
-
-background: rgba(255, 255, 255, 0.5);
-border-radius: 75px;
+    width: 1337px;
+    height: 250px;
+    left: 85px;
+    top: 2315px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 75px;
 }
 
 .endcontent > p{
@@ -408,8 +433,7 @@ font-weight: 500;
 font-size: 64px;
 line-height: 90px;
 
-align-items: center;
-text-align: center;
+
 
 color: #2D304E;
 }
@@ -431,37 +455,44 @@ color: #2A0600;
 
 /*footer*/
 footer{
-    position: absolute;
-    width: 1920px;
+    position: relative;
+    width: 100%;
     height: 260px;
-    left: 0px;
-    top: 2925px;
-
-    background: url(src/image.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .logo1{
-    position: absolute;
+    position: relative;
     width: 196px;
-    height: 186px;
-    left: 313px;
-    top: 38px;
+    height: 186px; 
+    margin-left: 313px; 
+    margin-right: 133px;
+}
+
+.col{
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 24px;
 }
 
 .VK{
-    position: absolute;
+    position: relative;
     width: 54px;
     height: 54px;
-    left: 642px;
-    top: 80px;
+    left: -54px;
 }
 
 .Telegram{
-    position: absolute;
+    position: relative;
     width: 54px;
     height: 54px;
-    left: 642px;
-    top: 26px;
+    top: -44px;
 }
 
 .underlogos, .underlogos1, .underlogos2{
@@ -470,46 +501,44 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 35px;
-
+position: relative;
 color: #2D304E;
 }
 
 .underlogos{
-    position: absolute;
-    width: 390px;
+    
+    width: 409px;
     height: 31px;
-    left: 642px;
-    top: 120px;
+
 }
 
 .underlogos1{
-    position: absolute;
+   
 width: 409px;
 height: 36px;
-left: 642px;
-top: 151px;
+
 }
 
 .underlogos2{
-    position: absolute;
-width: 390px;
-height: 36px;
-left: 642px;
-top: 187px;
+
+width: 409px;
+
 }
 
+
 .column1{
-    position: absolute;
+    position: relative;
     width: 171px;
     height: 35px;
-    left: 1163px;
+    margin-left: 112px;
+    margin-right: 43px;
     
     font-family: 'Sweet Mavka Script';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 23px;
-    
+    top: -100px;
     color: #2D304E; 
 }
 
@@ -531,33 +560,34 @@ top: 187px;
 }
 
 .column2{
-    position: absolute;
+    position: relative;
 width: 107px;
 height: 35px;
-left: 1381px;
 
+margin-left: 0px;
+margin-right: 43px;
 font-family: 'Sweet Mavka Script';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 23px;
-
+top: -100px;
 color: #2D304E;
 }
 
 .column3{
-    position: absolute;
+    position: relative;
 width: 138px;
 height: 34px;
-left: 1531px;
 
-
+margin-left: 0px;
+margin-right: 251px;
 font-family: 'Sweet Mavka Script';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 23px;
 
-
+top: -100px;
 color: #2D304E;
 }
