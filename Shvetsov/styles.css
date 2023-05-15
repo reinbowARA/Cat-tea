@@ -1,0 +1,671 @@
+@font-face {
+	font-family: 'Sweet\ Mavka\ Script';
+	src: url("Sweet\ Mavka\ Script.otf") format("opentype");
+}
+
+.background {
+	width:1920px;
+	height:2692px;
+	position:absolute;
+	background-image:url(images/background.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.secondbackground { 
+	background-color:rgba(200.81250607967377, 185.49721509218216, 176.8823629617691, 1);
+	width:1516px;
+	height:2140px;
+	position:absolute;
+	left:202px;
+	top:244px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+}
+.allteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:1124px;
+	height:330px;
+	position:absolute;
+	left:396px;
+	top:270px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_1.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.choosetheteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:1124px;
+	height:330px;
+	position:absolute;
+	left:398px;
+	top:675px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_2.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.blackteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:396px;
+	top:1080px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_3.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.fruitteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:794px;
+	top:1080px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_4.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.greenteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:1192px;
+	top:1080px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_5.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.herbalteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:396px;
+	top:1485px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_6.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.packteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:800px;
+	top:1485px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_7.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.coldteapicture { 
+	background-color:rgba(0, 0, 0, 0.5);
+	width:332px;
+	height:339px;
+	position:absolute;
+	left:1188px;
+	top:1485px;
+	border-top-left-radius:95px;
+	border-top-right-radius:95px;
+	border-bottom-left-radius:95px;
+	border-bottom-right-radius:95px;
+	background-image:url(images/image_8.png);
+	opacity: 0.7;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.packtea { 
+	color:rgba(255, 255, 255, 1);
+	width:219px;
+	height:160px;
+	position:absolute;
+	left:862px;
+	top:1594px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.coldtea { 
+	color:rgba(255, 255, 255, 1);
+	width:223px;
+	height:160px;
+	position:absolute;
+	left:1246px;
+	top:1594px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.alltea { 
+	color:rgba(255, 255, 255, 1);
+	width:244px;
+	height:80px;
+	position:absolute;
+	left:831px;
+	top:395px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.choosethetea { 
+	color:rgba(255, 255, 255, 1);
+	width:250px;
+	height:80px;
+	position:absolute;
+	left:831px;
+	top:808px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.blacktea { 
+	color:rgba(255, 255, 255, 1);
+	width:180px;
+	height:160px;
+	position:absolute;
+	left:470px;
+	top:1178px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.herbaltea { 
+	color:rgba(255, 255, 255, 1);
+	width:235px;
+	height:160px;
+	position:absolute;
+	left:444px;
+	top:1594px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.fruittea { 
+	color:rgba(255, 255, 255, 1);
+	width:318px;
+	height:203px;
+	position:absolute;
+	left:813px;
+	top:1178px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.greentea { 
+	color:rgba(255, 255, 255, 1);
+	width:203px;
+	height:160px;
+	position:absolute;
+	left:1246px;
+	top:1186px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:55px;
+	letter-spacing:0;
+}
+.description { 
+	color:rgba(112.62499898672104, 73.39395090937614, 14.547397792339325, 1);
+	width:1219px;
+	height:392px;
+	position:absolute;
+	left:396px;
+	top:1874px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:25px;
+	letter-spacing:0;
+}
+.downbackground { 
+	width:1920px;
+	height:260px;
+	position:absolute;
+	left:0px;
+	top:2430px;
+}
+.downbackgroundpicture { 
+	width:1920px;
+	height:258px;
+	position:absolute;
+	left:0px;
+	top:2px;
+	background-image:url(images/image_10.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.phone { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:390px;
+	height:36px;
+	position:absolute;
+	left:642px;
+	top:199px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+
+.address { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:409px;
+	height:36px;
+	position:absolute;
+	left:642px;
+	top:163px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.email { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:390px;
+	height:31px;
+	position:absolute;
+	left:642px;
+	top:132px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:24px;
+	letter-spacing:0;
+}
+.selectthetea2 { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1163px;
+	top:124px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.mainpage { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:200px;
+	height:10px;
+	position:absolute;
+	left:1163px;
+	top:55px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.account { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:120px;
+	height:10px;
+	position:absolute;
+	left:1163px;
+	top:89px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.start { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:100px;
+	height:10px;
+	position:absolute;
+	left:1163px;
+	top:20px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+}
+.help { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1381px;
+	top:20px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+}
+.faq { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1380px;
+	top:55px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.comments { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1380px;
+	top:89px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.menufooter { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1531px;
+	top:55px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.bucketfooter { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1531px;
+	top:89px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.stocksfooter { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1531px;
+	top:124px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+}
+.other { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:75px;
+	height:10px;
+	position:absolute;
+	left:1531px;
+	top:20px;
+	font-family:Sweet Mavka Script;
+	text-align:left;
+	font-size:16px;
+	letter-spacing:0;
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+}
+
+.borders { 
+	border:8px solid rgba(0, 0, 0, 1);
+}
+.headerpos { 
+	width:1926px;
+	height:0px;
+	position:absolute;
+	left:0px;
+	top:244px;
+}
+.headerpos_pic { 
+	width:1920px;
+	height:244px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-image:url(images/image_11.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.menu { 
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:532px;
+	top:177px;
+}
+.menupos { 
+	background-color:rgba(140.00000685453415, 182.00000435113907, 233.00000131130219, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:28px;
+	border-top-right-radius:28px;
+	border-bottom-left-radius:28px;
+	border-bottom-right-radius:28px;
+}
+.menutext { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.stocks { 
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:752px;
+	top:177px;
+}
+.stocksback { 
+	background-color:rgba(140.00000685453415, 182.00000435113907, 233.00000131130219, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:28px;
+	border-top-right-radius:28px;
+	border-bottom-left-radius:28px;
+	border-bottom-right-radius:28px;
+}
+.stockstext { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.about { 
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:972px;
+	top:177px;
+}
+.aboutpos { 
+	background-color:rgba(140.00000685453415, 182.00000435113907, 233.00000131130219, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:28px;
+	border-top-right-radius:28px;
+	border-bottom-left-radius:28px;
+	border-bottom-right-radius:28px;
+}
+.abouttext { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+.bucket { 
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:1192px;
+	top:177px;
+}
+.bucketpos { 
+	background-color:rgba(140.00000685453415, 182.00000435113907, 233.00000131130219, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:28px;
+	border-top-right-radius:28px;
+	border-bottom-left-radius:28px;
+	border-bottom-right-radius:28px;
+}
+.buckettext {
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:196px;
+	height:56px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+}
+
+.registration { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:154px;
+	height:27px;
+	position:absolute;
+	left:1217px;
+	top:52px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+	text-decoration: underline rgb(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+}
+.login { 
+	background-color:rgba(140.00000685453415, 182.00000435113907, 233.00000131130219, 1);
+	width:98px;
+	height:38px;
+	position:absolute;
+	left:1094px;
+	top:52px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.logintext { 
+	color:rgba(45.00000111758709, 48.000000938773155, 78.00000295042992, 1);
+	width:95px;
+	height:27px;
+	position:absolute;
+	left:1095px;
+	top:52px;
+	font-family:Sweet Mavka Script;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+}
+.logo {
+	position: absolute;
+	width: 196px;
+	height: 186px;
+	left: 313px;
+	top: 38px;
+}
+
+.telegram {
+	position: absolute;
+	width: 54px;
+	height: 54px;
+	left: 642px;
+	top: 26px;
+	background-image: url(images/Telegram.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.vklogo {
+	position: absolute;
+	width: 54px;
+	height: 54px;
+	left: 642px;
+	top: 80px;
+	background-image: url(images/VK.svg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.toplogo {
+	position: absolute;
+	width: 152px;
+	height: 152px;
+	left: 884px;
+	top: 15px;
+}

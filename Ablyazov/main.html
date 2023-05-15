@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Кошкин чай</title>
+    
 </head>
+<script src="main.js"></script>
 <header>
     <div class="headbackground">
-        <img src="src/koshkin_chai.svg" alt="" class="logo">
+        <img src="src/koshkin_chai.svg" onclick="document.location='main.html'" class="logo">
         <button class="log-in">       
             <p class="log-in-text">
                 вход
@@ -17,10 +19,10 @@
         </button>
         <a class="register" href="">регистрация</a>
     </div>
-    <div class="headdown">  
-        <button class="menu">Меню</button>
+    <div class="headdown">   
+        <button class="menu" onclick="document.location='../Shvetsov/index.html'">Меню</button>
         <button class="stock">Акции</button>
-        <button class="about">О нас</button>
+        <button class="about" onclick="document.location='../Zaginaiko/about.html'">О нас</button>
         <button class="basket">Корзина</button>
     </div>
 </header>
@@ -28,7 +30,7 @@
     <div class="backinfo"> 
        
 
-        <div class="stock-x"> 
+        <div class="stockx"> 
             <img class="blockinx" id="manul" >
             <img class="blockinx" id="crotovuha" >
             <img class="blockinx" id="manulhelp" >
