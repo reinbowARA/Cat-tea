@@ -166,7 +166,7 @@ body{
 }
 .blockinx{
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     width: 579px;
     height: 464px;
     top: 40px;
@@ -185,13 +185,13 @@ body{
     background: url(https://sun9-84.userapi.com/impg/LA197jCu8LuD6qnLjevb5g7e1xuple3Hq2GU4g/LhLM4gYOIEs.jpg?size=348x491&quality=95&sign=d82939dc56c1048043f4be515d13dce0&c_uniq_tag=UoVUYZhDBlK9A_LusbrGfAu0TEeeauV8xVxPpy59Vok&type=album);
     background-size: cover;
     background-position: 50%;
-    left: 604px;
+    left: 32px;
 }
 #manulhelp{
     background: url(https://sun9-12.userapi.com/impg/c854128/v854128410/1ec2ea/YkYSqO93mX0.jpg?size=604x604&quality=96&sign=9b9acdcb08d75afcaddeac2e736e05f2&type=album);
     background-size: cover;
     background-position: 50%;
-    left: 1208px;
+    left: 64px;
 }
 
 .line{
@@ -203,7 +203,7 @@ body{
     border: 6px solid #000000;
 }
 .HeadText{
-    position: absolute;
+    position: relative;
     width: 580px;
     height: 93px;
     
@@ -222,55 +222,64 @@ body{
     color: #000000;
 }
 #first{
-    top: 607px;
-    left: 473px;    
+    top: 40px;   
 }
 
 /*card shop*/
 
+/*.rows-content{
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+}*/
+
 .card{
-    position: absolute;
     width: 416px;
     height: 680px;
 
     background: rgba(255, 255, 255, 0.5);
     border-radius: 45px;
+
+    flex-direction: row ;
+}
+.shopblock, .shopblock1, .shopblock2, .shopblock3,.shopblock4, .shopblock5{
+    position: relative;
+    margin-left: 0;
 }
 .shopblock {
-    position: absolute;
 width: 416px;
 height: 680px;
 left: 88px;
-top: 736px;
-}
-.shopblock2{
-position: absolute;
-width: 416px;
-height: 680px;
-left: 1010px;
-top: 736px;
+top: 54px;
 }
 .shopblock1{
-    position: absolute;
     width: 416px;
     height: 680px;
-    left: 549px;
-    top: 736px;
+    left: 548px;
+    top: 54px;
+    margin-top: -680px;
 }
+.shopblock2{
+width: 416px;
+height: 680px;
+left: 1008px;
+top: 54px;
+margin-top: -680px;
+}
+
 .card > img{
-    position: absolute;
+    position: relative;
+    left: 36px;
     width: 344px;
     height: 236px;
-    left: 40px;
     top: 40px;
 }
 
 .textinblock {
-    position: absolute;
+    position: relative;
     width: 344px;
     height: 44px;
-    left: 40px;
-    top: 276px;
+    top: 40px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -284,11 +293,12 @@ top: 736px;
     color: #2D304E;
 }
 .V{
-    position: absolute;
+    position: relative;
     width: 177px;
     height: 40px;
-    left: 40px;
-    top: 320px;
+    left: 42px;
+    top: 40px;
+    margin-left: 0;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -296,16 +306,16 @@ top: 736px;
     font-size: 14px;
     line-height: 20px;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
 
     color: #2D304E;
 }
 .Dis{
-    position: absolute;
+    position: relative;
     width: 163px;
     height: 40px;
+    margin-left: 0%;
     left: 221px;
-    top: 320px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -321,11 +331,11 @@ top: 736px;
 }
 
 .textscrollinblock{
-    position: absolute;
+    position: relative;
 width: 344px;
 height: 233px;
-left: 40px;
-top: 374px;
+
+top: 10px;
 overflow-y: scroll;
 }
 .textscrollinblock > p{
@@ -341,11 +351,11 @@ align-items: center;
 color: #2D304E;
 }
 .buy{
-    position: absolute;
+    position: relative;
 width: 112px;
 height: 32px;
 left: 152px;
-top: 625px;
+top: 24px;
 
 background: #8CB6E9;
 border-radius: 16px;
@@ -363,61 +373,55 @@ color: #2A0600;
 
 /*новинки*/
 .line1{
-    position: absolute;
+    position: relative;
     width: 1344px;
     height: 0px;
-    left: 84px;
-    top: 1452px;
+    top: 72px;
     border-radius: 90px;
     border: 6px solid #000000;
 }
 #second{
-    position: absolute;
+    position: relative;
     width: 232px;
 height: 93px;
-left: 637px;
-top: 1462px;
+top: 64px;
 }
 
 .shopblock3{
-    position: absolute;
 width: 416px;
 height: 680px;
 left: 88px;
-top: 1562px;
+top: 64px;
 }
 .shopblock4{
-    position: absolute;
     width: 416px;
     height: 680px;
     left: 549px;
-    top: 1562px;
+    top: 64px;
+    margin-top: -680px;
 }
 .shopblock5{
-    position: absolute;
     width: 416px;
     height: 680px;
-    left: 1010px;   
-    top: 1562px;
+    left: 1010px;  
+    top: 64px;
+    margin-top: -680px;
 }
 
 .line2{
-    position: absolute;
+    position: relative;
     width: 1344px;
     height: 0px;
-    left: 84px;
-    top: 2275px;
-
+    top: 91px;
     border-radius: 90px;
     border: 6px solid #000000;
 }
 
 .endcontent{
-    position: absolute;
+    position: relative;
     width: 1337px;
     height: 250px;
-    left: 85px;
-    top: 2315px;
+    top: 144px;
     display: flex;
     align-items: center;
     text-align: center;
