@@ -3,18 +3,17 @@
     src: url("./Sweet\ Mavka\ Script.otf") format("opentype");
 }
 
-
 .back{
-    position: absolute;
+    position: relative;
     width: 1920px;
     height: 244px;
-    left: 0px;
-    top: 0px;
+    left: -10px;
+    top: -10px;
     background: url("./images/front.png");
 }
 
 .logo{
-    position: absolute;
+    position: relative;
     width: 152px;
     height: 152px;
     left: 884px;
@@ -23,11 +22,11 @@
 }
 
 .log-in{
-    position: absolute;
+    position: relative;
     width: 98px;
     height: 38px;
-    left: 1094px;
-    top: 43px;
+    left: 1035px;
+    top: -129px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -43,12 +42,12 @@
 }
 
 .registed{
+    position: relative;
     background-color: transparent;
-    position: absolute;
     width: 154px;
     height: 38px;
-    left: 1217px;
-    top: 43px;
+    left: 1180px;
+    top: -167px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -66,7 +65,7 @@
 
 
 .menu, .actions, .about_us, .basket{
-    position: absolute;
+    position: relative;
     width: 196px;
     height: 56px;
     top: 177px;
@@ -87,18 +86,22 @@
 
 .menu{
     left: 532px;
+    top: -70px;
 }
 
 .actions{
-    left: 752px;
+    left: 556px;
+    top: -70px;
 }
 
 .about_us{
-    left: 972px;
+    left: 580px;
+    top: -70px;
 }
 
 .basket{
-    left: 1192px
+    left: 604px;
+    top: -70px;
 }
 
 body{
@@ -109,18 +112,18 @@ body{
 }
 
 .backbody{
-    position: absolute;
+    position: relative;
     width: 1518px;
     height: 2136px;
     left: 202px;
-    top: 245px;
+    top: -7px;
 
     background: #C9B9B1;
     border-radius: 95px;
 }
 
 .about{
-    position: absolute;
+    position: relative;
     width: 660px;
     height: 149px;
     left: 417px;
@@ -137,22 +140,22 @@ body{
 }
 
 .tea{
-    position: absolute;
+    position: relative;
     width: 1200px;
     height: 700px;
     left: 147px;
-    top: 241px;
+    top: 88px;
 
     background: url("./images/tea.jpg");
     border-radius: 90px;
 }
 
 .text_body{
-    position: absolute;
+    position: relative;
     width: 1200px;
     height: 300px;
     left: 156px;
-    top: 956px;
+    top: 103px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -166,22 +169,22 @@ body{
 }
 
 .line{
-    position: absolute;
+    position: relative;
     width: 1200px;
     height: 0px;
     left: 158px;
-    top: 1206px;
+    top: 75px;
 
     border: 6px solid #000000;
     border-radius: 15px;
 }
 
 .cont{
-    position: absolute;
+    position: relative;
     width: 700px;
     height: 100px;
     left: 409px;
-    top: 1256px;
+    top: 120px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -194,11 +197,11 @@ body{
 }
 
 .cont1{
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 385px;
     left: 184px;
-    top: 1461px;
+    top: 225px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -212,11 +215,11 @@ body{
 }
 
 .cont2{
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 385px;
     left: 586px;
-    top: 1461px;
+    top: -160px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -228,11 +231,12 @@ body{
 }
 
 .cont3{
-    position: absolute;
+    position: relative;
     width: 340px;
     height: 385px;
+    left: 1000px;
     right: 192px;
-    top: 1461px;
+    top: -550px;
 
     font-family: 'Sweet Mavka Script';
     font-style: normal;
@@ -244,11 +248,11 @@ body{
 }
 
 .vertical_line1{
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 0px;
     left: 350px;
-    top: 1661px;
+    top: -730px;
 
     border: 6px solid #898181;
     transform: rotate(-90deg);
@@ -258,11 +262,11 @@ body{
 }
 
 .vertical_line2{
-    position: absolute;
+    position: relative;
     width: 400px;
     height: 0px;
     left: 750px;
-    top: 1661px;
+    top: -743px;
 
     border: 6px solid #898181;
     transform: rotate(-90deg);
@@ -273,17 +277,16 @@ footer{
     background: url("./images/front.png");
     background-size: 100%;
     background-repeat: repeat;
-    overflow-x: hidden;
-    position: absolute;
+    position: relative;
     width: 1920px;
     height: 260px;
     left: 0px;
-    top: 2424px;
+    top: 48px;
 
 }
 
 .logo2{
-    position: absolute;
+    position: relative;
     width: 196px;
     height: 186px;
     left: 313px;
@@ -291,19 +294,19 @@ footer{
 }
 
 .telegram{
-    position: absolute;
+    position: relative;
     width: 54px;
     height: 54px;
-    left: 642px;
-    top: 26px;
+    left: 446px;
+    top: -105px;
 }
 
 .vk{
-    position: absolute;
+    position: relative;
     width: 54px;
     height: 54px;
-    left: 642px;
-    top: 80px;
+    left: 390px;
+    top: -55px;
 }
 
 .mail2, .adress, .number{
@@ -317,27 +320,27 @@ footer{
     }
 
 .mail2{
-    position: absolute;
+    position: relative;
     width: 390px;
     height: 31px;
-    left: 642px;
-    top: 120px;
+    left: 330px;
+    top: -40px;
 }
 
 .adress{
-    position: absolute;
+    position: relative;
     width: 409px;
     height: 36px;
-    left: 642px;
-    top: 151px;
+    left: 10px;
+    top: -10px;
 }
 
 .number{
-    position: absolute;
+    position: relative;
     width: 390px;
     height: 36px;
-    left: 642px;
-    top: 187px;
+    left: -385px;
+    top: 20px;
 }
 
 .text1, .text5, .text8{
@@ -366,89 +369,89 @@ footer{
 }
 
 .text1{
-    position: absolute;
+    position: relative;
     width: 171px;
     height: 35px;
     left: 1163px;
-    top: 20px;
+    top: -175px;
 }
 
 .text2{
-    position: absolute;
+    position: relative;
     width: 174px;
     height: 34px;
     left: 1163px;
-    top: 55px;
+    top: -175px;
 }
 
 .text3{
-    position: absolute;
+    position: relative;
     width: 174px;
     height: 35px;
     left: 1163px;
-    top: 89px;
+    top: -175px;
 }
 
 .text4{
-    position: absolute;
+    position: relative;
     width: 174px;
     height: 34px;
     left: 1163px;
-    top: 124px;
+    top: -175px;
 }
 
 .text5{
-    position: absolute;
+    position: relative;
     width: 107px;
     height: 35px;
     left: 1381px;
-    top: 20px;
+    top: -312px;
 }
 
 .text6{
-    position: absolute;
+    position: relative;
     width: 108px;
     height: 34px;
     left: 1380px;
-    top: 55px;
+    top: -312px;
 }
 
 .text7{
-    position: absolute;
+    position: relative;
     width: 108px;
     height: 35px;
     left: 1380px;
-    top: 89px;
+    top: -312px;
 }
 
 .text8{
-    position: absolute;
+    position: relative;
     width: 138px;
     height: 35px;
     left: 1531px;
-    top: 20px;
+    top: -415px;
 }
 
 .text9{
-    position: absolute;
+    position: relative;
     width: 138px;
     height: 34px;
     left: 1531px;
-    top: 55px;
+    top: -415px;
 }
 
 .text10{
-    position: absolute;
+    position: relative;
     width: 138px;
     height: 35px;
     left: 1531px;
-    top: 89px;
+    top: -415px;
 }
 
 .text11{
-    position: absolute;
+    position: relative;
     width: 138px;
     height: 34px;
     left: 1531px;
-    top: 124px;
+    top: -415px;
 }
